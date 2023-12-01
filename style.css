@@ -96,6 +96,9 @@ button:hover span{
 .column {
     float: left;
     width: 33.33%;
+    left: 25px;
+    right: 25px;
+    top: 100px;
 }
 .row:after {
     content: "";
