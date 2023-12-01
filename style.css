@@ -101,8 +101,9 @@ button:hover span{
     top: 100px;
 }
 .row:after {
+    position: relative; 
     content: "";
-    display: table;
+    display: inline;
     clear: both;
 }
 @media screen and (max-width: 600px) {
