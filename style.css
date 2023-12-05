@@ -98,6 +98,7 @@ button:hover span{
 /* Create two unequal columns that floats next to each other */
 /* Left column */
 .leftcolumn {
+    position: absolute;
     top: 100px;   
     float: left;
     width: 75%;
@@ -105,6 +106,7 @@ button:hover span{
 
 /* Right column */
 .rightcolumn {
+    position: absolute;
     top: 100px; 
     float: left;
     width: 25%;
