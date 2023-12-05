@@ -23,9 +23,10 @@
     cursor: pointer;
 }
 .navbar ul li{
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
 }
 .navbar ul li{
     text-decoration: none;
@@ -96,13 +97,15 @@ button:hover span{
 
 /* Create two unequal columns that floats next to each other */
 /* Left column */
-.leftcolumn {   
+.leftcolumn {
+    top: 100px;   
     float: left;
     width: 75%;
 }
 
 /* Right column */
 .rightcolumn {
+    top: 100px; 
     float: left;
     width: 25%;
     background-color: #f1f1f1;
