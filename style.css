@@ -98,14 +98,14 @@ button:hover span{
 /* Create two unequal columns that floats next to each other */
 /* Left column */
 .leftcolumn {
-    translate: 0px 200px;
+    translate: 50px 300px;
     float: left;
     width: 75%;
 }
 
 /* Right column */
 .rightcolumn {
-    translate: 0px 200px;
+    translate: 50px 300px;
     float: left;
     width: 25%;
     background-color: #f1f1f1;
